@@ -1,0 +1,36 @@
+body{
+    background-image: url(../img/light-veneer.png);
+}
+#connect{
+    background-image: url(../img/circles-light.png);
+    padding: 20px;  
+}
+#id{
+    clear: both;
+}
+nav,#connect:hover{
+    background:rgb(193, 240, 240);
+}
+.panel-heading{
+    text-underline-position: below;
+}
+p,h1,h4 {
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-decoration: underline;
+    text-underline-position: below;
+}
+#gMap{
+    padding: 10px 0 0 10px;
+}
+.panel-footer{
+    font-size: 15px;
+}
+.portfolio{
+    width: 200px;
+    height: 150px;
+}
+

@@ -1,2 +1,2 @@
 # Bootstrap-Portfolio
-Read my profile at https://xhrsteven.github.io/Bootstrap-Portfolio/
+Read my bio at https://xhrsteven.github.io/Bootstrap-Portfolio/
