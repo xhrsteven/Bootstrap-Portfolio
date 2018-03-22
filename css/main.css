@@ -1,12 +1,16 @@
 body{
     background-image: url(../img/light-veneer.png);
 }
-#connect{
-    background-image: url(../img/circles-light.png);
-    padding: 20px;  
+#connect,#inserted{
+    /* background-image: url(../img/circles-light.png); */
+    padding-right:20px;  
 }
-#id{
+#connect{
     clear: both;
+}
+#insert{
+	padding: 10px;
+	float: right;
 }
 nav,#connect:hover{
     background:rgb(193, 240, 240);
@@ -32,5 +36,23 @@ h1{
 .portfolio{
     width: 200px;
     height: 150px;
+}
+#rsp,#psychic,#crystals{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	text-align: center;
+	display: inline-block;
+	}
+#quote{
+	font-family: monospace;
+	text-align: center;
+}
+#cat,#spicy,#travel{
+    width:200px;
+    height: 250px;
+    margin: 10px 15px 10px 15px;
+    float: left;
+    text-align: center;
 }
 
