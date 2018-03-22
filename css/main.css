@@ -10,10 +10,10 @@ body{
 }
 #insert{
 	padding: 10px;
-	float: right;
+	float: left;
 }
 nav,#connect:hover{
-    background:rgb(193, 240, 240);
+    background:rgb(240, 247, 211);
 }
 .panel-heading{
     text-underline-position: below;
@@ -55,4 +55,82 @@ h1{
     float: left;
     text-align: center;
 }
+@media screen and (max-width: 980px) {
+    body {
+        background-image: url(../img/light-veneer.png);
+    }
+    .container {
+        float: left;
+        width: 100%;
+    }
+    #icon,#inserted{
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+
+        margin-top: 20px;
+    }
+    footer {
+        position: absolute;
+        bottom:0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(../img/light-veneer.png);
+    }
+    #container {
+        float: left;
+        width: 100%;
+    }
+    #connect {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer {
+        position: relative;
+    }
+}
+
+@media screen and (max-width:640ox) {
+    body {
+        background-image: url(../img/light-veneer.png);
+    }
+    header {
+        position: static;
+    }
+    #container {
+        float: left;
+        width: 100%;
+    }
+    #connect{
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        background: #cccccc;
+    }
+    #container {
+        float: left;
+        width: 100%;
+    }
+    aside {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer {
+        position: relative;
+    }
+}
+
 
