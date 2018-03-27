@@ -1,5 +1,6 @@
 body{
     background-image: url(../img/light-veneer.png);
+    height: 100%;
 }
 #connect,#inserted{
     /* background-image: url(../img/circles-light.png); */
@@ -37,7 +38,7 @@ h1{
     width: 200px;
     height: 150px;
 }
-#rsp,#psychic,#crystals{
+#rsp,#psychic,#crystals,#trivia{
 	width: 200px;
 	height: 200px;
 	border: 1px solid black;
