@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
 body{
     background-image: url(../img/light-veneer.png);
     height: 100%;
@@ -22,7 +24,8 @@ nav,#connect:hover{
 p,h1,h4 {
     line-height: 27px;
     letter-spacing: 2px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Jacques Francois',serif;
+    ;
 }
 h1{
     text-decoration: underline;
@@ -49,13 +52,13 @@ h1{
 	font-family: monospace;
 	text-align: center;
 }
-#cat,#spicy,#travel{
-    width:200px;
-    height: 250px;
-    margin: 10px 15px 10px 15px;
-    float: left;
-    text-align: center;
-}
+img{
+
+    height: 500px;
+} 
+
+
+
 @media screen and (max-width: 980px) {
     body {
         background-image: url(../img/light-veneer.png);
