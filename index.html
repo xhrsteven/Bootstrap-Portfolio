@@ -70,7 +70,7 @@
         _Nav.close;
     })
     </script>    
-<!-- page header -->
+    <!-- page header -->
     <header class="intro-header">
         <div class="container">
             <div class="row">
@@ -105,38 +105,44 @@
                         col-xs-12
                         sidebar-container">
 
-            <section class="visible-md visible-lg">
+            <div class="visible-md visible-lg">
                 <h4><a href="about.html">ABOUT ME</a></h4>
                 <div class="short-about">
                     <img src="img/self.jpeg" alt="Placeholder" class="img-thumbnail">
-                    <ul class="list-inline">
-                        <li><a target='blank' href="https://github.com/xhrsteven">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span></a>
-                        </li>
-                        <li><a target='blank' href="https://www.linkedin.com/in/haoranxu">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span></a>
-                        </li>
-                        <li><a target='blank' href="https://www.tumblr.com/blog/rainblast">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
-                            </span></a>
-                        </li>
-                        <li><a target='blank' href="https://stackoverflow.com/users/8498631/%E5%BE%90%E6%B5%A9%E7%84%B6">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                            </span></a>
-                        </li>
-                    </ul>
+                        <ul class="list-inline">
+                            <li><a target='blank' href="https://github.com/xhrsteven">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a target='blank' href="https://www.linkedin.com/in/haoranxu">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a target='blank' href="https://www.tumblr.com/blog/rainblast">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a target='blank' href="https://stackoverflow.com/users/8498631/%E5%BE%90%E6%B5%A9%E7%84%B6">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a target='blank' href="https://wx.qq.com/?&lang=en_US">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                        </ul>   
                 </div>
-            </section>
+            </div>
 
             </div>
         </div>
@@ -147,21 +153,21 @@
 
 
     
-    <footer class="footer navbar-fixed-bottom ">
+    <footer class="footer navbar-fixed-bottom text-muted text-center">
             <div class="panel-footer text-center active">
                 <a href="www.facebook.com"><i class="fa fa-facebook-square fa-lg"></i></a>
                 <a href="www.twitter.com"><i class="fa fa-twitter-square fa-lg"></i></a>
                 <a href="www.instagram.com"><i class="fa fa-instagram fa-lg"></i></a>
                 <a href="www.google.com"><i class="fa fa-google-plus-square fa-lg"></i></a>
-                <a href="www.skype.com"><i class="fa fa-skype fa-lg"></i></a>
-                <p class="text-muted text-muted-footer text-center">&copy; Copyright Steven Xu 2018</p>
+                <a href="www.skype.com"><i class="fa fa-skype fa-lg"></i></a><br>
+                &copy; Copyright Steven Xu 2018
           </div>
     </footer>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
     <script>
             /* 顶部进度条 */
             (function() {
-              var $w = document.window;
+              var $w = $(window);
               var $prog2 = $('.progress-indicator');
               var wh = $w.height();
               var h = $('body').height();
