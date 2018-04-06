@@ -11,80 +11,170 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
 </head>
 <body>
-    <nav class="navbar navbar-default nav">
-        <a class="navbar-brand" href="index.html">Steven Xu</a> 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"></a> 
+            </div> 
+        
+            <div class="navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
                   <li><a href="portfolio.html">Portfolio</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
+            </div>
+        </div>    
     </nav>
+
+    <!-- page header -->
+    <header class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Steven Xu Blog</h1>
+                        <h2 class="subheading">Great things are done by a series of small things brought together.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main content -->
     <div class="container">
-        <div class="rows">
-            <div class="col-lg-8">
-                <h1>About</h1>
-            <div class="slider">
-                <div class="slide-viewer">
-                    <div class="slide-group">
-                        <div class="slide slide-1">
-                            <img src="img/NY.png" alt="New York" />
+        <div class="row">
+                <!-- Portfolio sidebar -->
+            <div class="col-lg-8 col-lg-offset-1
+                            col-md-8 col-md-offset-1
+                            col-sm-12
+                            col-xs-12
+                            postlist-constainer">
+                <h2>Road Map to Full Stack Developer</h2>  
+                    <div class="post-review">
+                        <article class="about-me">
+                        <p id="intro">
+                            <script src="js/add-content.js"></script>
+                            My name is Steven Xu. I'm from Anqing, Anhui Province in the south middle east of China, which is located along the Yangtze River. I have finished my Information Science master degree in the University of Texas at Dallas in the December 2016. Currently, I'm working as a data analyst at the company of Dover Fueling Solutions in Richardson, TX. In my sparing time, I like watching NBA games, listening to live music and reading books.I like adventure and enjoy road trip. Spicy hotpot is one of my best favorite food, I'd like to invite y'all to visit Sichuan and Chongqing, in which the panda foundation locates in the south west of China.
+                        </p>
+                        </article>
+
+                        <div class="visible-md visible-lg">
+                            <h4>Photo Gallery</h4>
+                            <div class="slider">
+                                <div class="slide-viewer">
+                                    <div class="slide-group">
+                                        <div class="slide slide-1">
+                                            <img src="img/NY.png" alt="New York" />
+                                        </div>
+                                        <div class="slide slide-2">
+                                            <img src="img/spicyfood.png" alt="spicyfood" />
+                                        </div>
+                                        <div class="slide slide-3">
+                                            <img src="img/panda.jpg" alt="panda" />
+                                        </div>
+                                        <div class="slide slide-4">
+                                            <img src="img/pandazoo.png" alt="pandazoo" />
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
                         </div>
-                        <div class="slide slide-2">
-                            <img src="img/spicyfood.png" alt="spicyfood" />
-                        </div>
-                        <div class="slide slide-3">
-                            <img src="img/panda.jpg" alt="panda" />
-                        </div>
-                        <div class="slide slide-4">
-                            <img src="img/pandazoo.png" alt="pandazoo" />
-                        </div>
+                    </div>          
+                </div>
+                <!-- about-sidebar -->
+                <div class="col-lg-3 col-lg-offset-0
+                            col-md-3 col-md-offset-0
+                            col-sm-12
+                            col-xs-12
+                            sidebar-container">
+    
+                <div class="visible-md visible-lg">
+                    <h4><a href="about.html">ABOUT ME</a></h4>
+                    <div class="short-about">
+                        <img src="img/self.jpeg" alt="Placeholder" class="img-thumbnail">
+                        <ul class="list-inline">
+                            <li><a target='blank' href="https://github.com/xhrsteven">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a target='blank' href="https://www.linkedin.com/in/haoranxu">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a target='blank' href="https://www.tumblr.com/blog/rainblast">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a target='blank' href="https://stackoverflow.com/users/8498631/%E5%BE%90%E6%B5%A9%E7%84%B6">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                            <li><a target='blank' href="https://wx.qq.com/?&lang=en_US">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="slide-buttons"></div>
-            </div>
-
-            </div>
-            <div class="col-md-4">
-                <div class="panel pane-default">
-                    <div id='connect' class="panel-heading">
-                        <h1>Contact Me</h1>
-                        <div id="icon" class="panel-body">
-                            <div class="col-md-4">
-                                <a href="https://github.com/xhrsteven" target="_blank">
-                                    <img src="img/github.png" alt="GitHub" class="img-thumbnail">
-                                </a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="https://www.linkedin.com/in/haoranxu" target="_blank">
-                                    <img src="img/linkedin.png" alt="Linkedin" class="img-thumbnail">
-                                </a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="https://stackoverflow.com/users/8498631/%E5%BE%90%E6%B5%A9%E7%84%B6" target="_blank">
-                                    <img src="img/stackoverflow.png" alt="StackOverflow" class="img-thumbnail">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        </div>
-    </div>
 
-    <footer class="footer navbar-fixed-bottom ">
-            <div class="panel-footer text-center active">
-                <a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
-                <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
-                <a href="www.instagram.com"><i class="fa fa-instagram"></i></a>
-                <a href="www.google.com"><i class="fa fa-google-plus"></i></a>
-                <a href="www.skype.com"><i class="fa fa-skype"></i></a>
-                <p class="text-muted text-muted-footer text-center">&copy; Copyright Steven Xu 2018</p>
-          </div>
-    </footer>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/slide.js"></script>
+    
+        <footer class="footer fixed-bottom text-center text-muted">
+                <div class="panel-footer text-center active">
+                    <a href="www.facebook.com"><i class="fa fa-facebook-square fa-lg"></i></a>
+                    <a href="www.twitter.com"><i class="fa fa-twitter-square fa-lg"></i></a>
+                    <a href="www.instagram.com"><i class="fa fa-instagram fa-lg"></i></a>
+                    <a href="www.google.com"><i class="fa fa-google-plus-square fa-lg"></i></a>
+                    <a href="www.skype.com"><i class="fa fa-skype fa-lg"></i></a><br>
+                    &copy; Copyright Steven Xu 2018
+              </div>
+        </footer>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <script>
+                /* 顶部进度条 */
+                (function() {
+                  var $w = document.window;
+                  var $prog2 = $('.progress-indicator');
+                  var wh = $w.height();
+                  var h = $('body').height();
+                  var sHeight = h - wh;
+                  $w.on('scroll', function() {
+                    window.requestAnimationFrame(function(){
+                      var percent = Math.max(0, Math.min(1, $w.scrollTop() / sHeight));
+                      updateProgress(percent);
+                    });
+                  });
+            
+                  function updateProgress(percent) {
+                    $prog2.css({width: percent * 100 + '%'});
+                  }
+                });
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="js/slide.js"></script>
+        <!-- <script src="js.js"></script> -->
+
 </body>
 </html>
